@@ -1,4 +1,3 @@
-; $Id$
 name = Alpine
 description = 2 Column Layout, Pure CSS Menu Dropdowns
 core = 6.x
