@@ -6,9 +6,9 @@ Tags: two-columns, black, fixed-width, custom-header
 Original Author: Andrew Revitt
 Original Author URI: http://www.andrewrevitt.com
 Original Version: 1.2
-Drupal 6 Author: Jason Moore
-Drupal 6 Author URI: http://www.arborwebdevelopment.com
-Drupal 6 Version: 1.0
+Drupal 7 Author: Jason Moore
+Drupal 7 Author URI: http://www.arborwebdevelopment.com
+Drupal 7 Version: 1.0
 */
 body {
   background: #000 url(images/background.jpg) repeat-x top fixed; 
@@ -52,7 +52,7 @@ body {
   font: 13px Georgia, Palatino, serif; 
   line-height: 1.4em; 
   margin: 0; 
-  padding: 9px 0; 
+  padding: 9px; 
   letter-spacing: 0;
 }
 #header h1 a {
@@ -62,7 +62,7 @@ body {
 }
 #header .site-logo {
   top: 50px;
-  left: 70px;
+  left: -70px;
   position: relative;
 }
 #menu {
@@ -481,4 +481,22 @@ a img.aligncenter {
 #primary-menu ul.menu li ul li a.active {
   background: transparent;
   text-decoration: underline;
+}
+
+/* Drupal Specific CSS */
+.field-name-field-tags .field-item {
+ float: left;
+ margin-right: 10px;
+ margin-bottom: 10px;
+}
+
+.content ul.links.inline {
+  clear: both;
+  display: block;
+}
+.field-name-field-tags .field-label {
+  float: left;
+}
+li.node-readmore a {
+  font-size: 18px;
 }
