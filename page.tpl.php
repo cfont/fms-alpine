@@ -53,10 +53,10 @@
     <?php print render($page['sidebar_first']); ?>
   </div>
 </div>
-<? endif; ?>
+<?php endif; ?>
 <br clear="all" />
 </div>
 <div id="footer">
-  <p><?php print '<div class="footer">'. render($page['footer']) .'</div>' . '<div class="credits"><a href="http://drupalservers.net/drupal-6-themes" title="Drupal 6 Themes">Drupal 6 themes</a> by <a href="http://arborwebdevelopment.com" title="Arbor Web Development">Arbor Web Development</a></div>' ?></p>
+  <p><?php print '<div class="footer">'. render($page['footer']) .'</div>' . '<div class="credits"><a href="http://drupalservers.net/drupal-6-themes" title="Drupal 6 Themes">Drupal 6 themes</a> by <a href="http://arborwebdevelopment.com" title="Arbor Web Development">Arbor Web Development</a></div>'; ?></p>
 </div>
 <?php print render($page['page_bottom']); ?>
