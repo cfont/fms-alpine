@@ -7,7 +7,7 @@
     <?php endif; ?>
 </div>
 <div id="header">
-  <?php if ($logo || $site_title): ?>
+  <?php if ($logo || $site_name): ?>
     <a class='site-logo' href="<?php print $front_page ?>" title="<?php print $site_name ?>"><img src="<?php print($logo) ?>" alt="<?php print $site_name ?>" border="0" /></a>
   <?php endif; ?>
     
