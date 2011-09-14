@@ -1,12 +1,13 @@
-Alpine
+FMS Alpine
 --------
-Alpine is Drupal 6 ready.
+FMS Alpine is Drupal 7 ready.
 
 This theme is released under a GNU General Public License (GPL), version 3 (http://www.gnu.org/licenses/gpl.html)
 
 Changelog
 ---------
 Version 1.0 (8th Sept. 2010) Original
+Version 1.1 (12th Sept. 2011) Customized for FMS
 
 
 How to install

@@ -1,4 +1,4 @@
-name = Alpine
+name = FMS_Alpine
 description = 2 Column Layout. Pure CSS Menu Dropdowns. A nature theme good for outdoors related websites and blogs.
 core = 7.x
 version = VERSION
