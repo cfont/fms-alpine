@@ -1,5 +1,5 @@
 <?php
-function alpine_preprocess_page(&$vars) {
+function fms_alpine_preprocess_page(&$vars) {
  // Generate menu tree from source of Primary Links
  //$vars['main_menu_tree'] = menu_tree(variable_get('menu_main_menu_source','main-menu'));
  // Generate menu tree from source of Secondary Links
