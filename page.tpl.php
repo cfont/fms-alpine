@@ -7,9 +7,6 @@
     <?php endif; ?>
 </div>
 <div id="header">
-  <?php if ($logo || $site_name): ?>
-    <a class='site-logo' href="<?php print $front_page ?>" title="<?php print $site_name ?>"><img src="<?php print($logo) ?>" alt="<?php print $site_name ?>" border="0" /></a>
-  <?php endif; ?>
     
   <?php if ($site_name) : ?>
       <div class='site-name'><h1><a href="<?php print $front_page ?>" title="<?php print $site_name ?>"><?php print($site_name) ?></a></h1></div>
@@ -25,7 +22,7 @@
       <?php print render($page['content_top']); ?>
     </div>
   <?php endif; ?>
-  <?php print $breadcrumb; ?>
+  <!-- <?php print $breadcrumb; ?> -->
   <?php if ($page['highlighted']): print '<div id="mission">'. render($page['highlighted']) .'</div>'; endif; ?>
   <?php if ($tabs): print '<div id="tabs-wrapper" class="clearfix">'; endif; ?>
   <?php print render($title_prefix); ?>
@@ -49,7 +46,7 @@
 <?php if ($page['sidebar_first']): ?>	
 <div id="sidebar">
   <div id="sidebar">
-    <?php print render($page['search_box']); ?>
+   <!-- <?php print render($page['search_box']); ?> -->
     <?php print render($page['sidebar_first']); ?>
   </div>
 </div>
@@ -57,6 +54,6 @@
 <br clear="all" />
 </div>
 <div id="footer">
-  <p><?php print '<div class="footer">'. render($page['footer']) .'</div>' . '<div class="credits"><a href="http://drupalservers.net/drupal-6-themes" title="Drupal 6 Themes">Drupal 6 themes</a> by <a href="http://arborwebdevelopment.com" title="Arbor Web Development">Arbor Web Development</a></div>'; ?></p>
+  <p><?php print '<div class="footer">'. render($page['footer']) .'</div>' . '<div class="credits"><a href="http://drupalservers.net/drupal-7-themes" title="Drupal 7 Themes">Drupal 7 theme</a> originally developed by <a href="http://arborwebdevelopment.com" title="Arbor Web Development">Arbor Web Development</a></div>'; ?></p>
 </div>
 <?php print render($page['page_bottom']); ?>
