@@ -1,6 +1,6 @@
 /*
-Theme Name: Alpine
-Theme URI: http://drupal.org/project/alpine
+Theme Name: FMS Alpine
+Original Theme URI: http://drupal.org/project/alpine
 Description: A Drupal theme for the great outdoors
 Tags: two-columns, black, fixed-width, custom-header
 Original Author: Andrew Revitt
@@ -25,7 +25,7 @@ body {
 #header {
   width: 840px; 
   height: 318px; 
-  background: url(images/header.png) no-repeat top right;
+  background: url(images/header.jpg) no-repeat top right;
 }
 #header h1 {
   font: 30px Georgia, Palatino, "Times New Roman", Times, serif; 
@@ -61,7 +61,7 @@ body {
   color: #fff;
 }
 #header .site-logo {
-  top: 50px;
+  top: 65px;
   left: -70px;
   position: relative;
 }
@@ -91,7 +91,7 @@ body {
   letter-spacing: -1px;
 }
 #nav a, #nav a:visited {
-  color: #000;
+  color: #fff;
   display: block;
 }
 #nav a:hover {
@@ -499,4 +499,19 @@ a img.aligncenter {
 }
 li.node-readmore a {
   font-size: 18px;
+}
+
+img.fms-logo {
+  width: 190px;
+  height: 88px;
+  #margin-left: 8px;
+
+}
+#sidebar li a.active {
+  background-color: #5F6B02;
+}
+.standout-green {
+  color: #5F6B02;
+  font-style: italic;
+  font-weight: bold;
 }
